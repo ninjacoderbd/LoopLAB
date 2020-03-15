@@ -1,0 +1,43 @@
+/* ============================== */
+/* BASIC SETUP */
+/* ============================== */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background:#333;
+}
+::selection{
+    background-color: black;
+    color:red;
+}
+.navbar{
+    background: #292b2c;
+    border-bottom: 3px solid #008ed6;
+    opacity: 0.7;
+}
+#homeSection{
+    background: url(img/home.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+}
+.darkOverlay{
+    background: rgba(0,0,0,.7);
+    min-height: 700px;
+}
+.homeInner{
+    padding: 150px 80px;
+}
+.fa{
+    background: #fff;
+    padding: 4px;
+    color: #008ED6;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#exploreMainSection .fa{
+    background: #333;
+    padding: 4px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+}
